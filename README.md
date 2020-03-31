@@ -14,7 +14,7 @@ Predicted: the response entered by user
 Actual: actual values of sales
 
 
-EDA Steps taken
+# EDA Steps taken
 
 1. Checking the distribution of Train and Test Data.
 2. Checking the Statistics for the whole Data.
