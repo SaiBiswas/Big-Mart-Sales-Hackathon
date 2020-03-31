@@ -4,7 +4,7 @@ This Hackathon is sponsored by Analytics Vidhya and we are supposed to build a p
 
 We have train (8523) and test (5681) data set, train data set has both input and output variable(s). We need to predict the sales for test data set.
 
- Evaluation Metric:
+ # Evaluation Metric:
 
  The Evaluation metric we will use is the Root Mean Square Error value. 
 
@@ -21,7 +21,7 @@ EDA Steps taken
 3. Filling the missing values in the Item_Weight column with mean and Outlet_Size with mode as there are missing values
 4. Generating a Profile report on the whole dataset.
 
-Feature Engineering
+# Feature Engineering
 
 1. Replacing the various content values in the Item Fat Content variable 
 2. Getting the first two characters of ID to separate them into different categories.
@@ -31,7 +31,7 @@ Feature Engineering
 6. Label Encoding the train and test dataset.
 7. one hot encoding the data to get dummy variables.
 
-Modelling
+# Modelling
 
 1. Linear Regression yielding a RMSE score of 9.18
 2. Random Forest Regressor yielding a RMSE score of 39.62
